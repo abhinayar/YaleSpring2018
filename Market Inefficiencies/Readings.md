@@ -269,12 +269,15 @@ CONCLUSION:
 - IP law may be the next basis for blocking the SEC
 - 5th Amendment will come into question, as well as the nature of hedge fund disclosures and its broader effect on the public/markets themselves.gma
 
-**WEEK 2 READINGS:
-Characteristics Of Risk &amp; Return in Risk Arbitrage**
+
+
+**WEEK 2 READINGS:**
+Characteristics Of Risk &amp; Return in Risk Arbitrage
 
 - Paper analyzed 4750 M&amp;A deals from 63 to 98 to char. The risk and return in risk arbit.
 - Risk arbit ret are + corr. With market ret in dep markets but uncorr. In flat and apprec. Markets
 - Returns similar to those obtained from selling uncovered index put options
+
 
 START
 
@@ -291,6 +294,7 @@ START
   - CAPM does not fully capture the risk assoc. With deal failure and overstates potential returns
 - Paper investigates wether the reason the CAPM or other linear asset pricing models FAIL to capture the risk from inv. In merger stocks is that the ret to merger stocks are corr. To market returns in a non linear way (thus linear pricing will not work)
 
+
 - Results indicate that:
 	- In flat + appreciating markets, risk arbit generates 50 basis pts per m return
 	- Market beta of the risk arbit portfolio increases when markets are down
@@ -299,18 +303,20 @@ START
 	- Paper is first to doc. high corr. between risk arbit returns and market returns in down markets
 	- Studies suggest that NOT accounting for transaction cost is what makes risk arbit look *so* outsizedly attractive in terms of returns
 
-## Typical types of investments
+
+**Typical types of investments**
 
 There are two types of mergers:
 - Cash mergers
 - Stock mergers
+
 
 **Cash merger**
 
 In cash merger, acquiring co. offers to exchange cash for the target co equity/asssets
 
 
-** Stock Merger **
+**Stock Merger**
 
 In stock merger, the acquirer offers common stock to the target sh. instead of cash
 
@@ -321,12 +327,12 @@ In stock merger:
 	3. Interest paid by arbit persons BROEKR on proceeds from the short sale (usually 0 for indiv.)
 
 
-** PRIMARY RISK ** : Deal falling through
+**PRIMARY RISK** : Deal falling through
 
 Probability for risk failure is baked into target firms price, hence why it trades SLIGHTLY below what the offering price is
 
 
-## Possible Explanaions of Risk Arbit Returns
+**Possible Explanaions of Risk Arbit Returns**
 
 Excess returns are highest for CASH tender offers.
 
