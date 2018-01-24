@@ -290,135 +290,101 @@ START
   - Owning tget co. stock after tender offer is like owning tget stock + put option on tget stock
   - CAPM does not fully capture the risk assoc. With deal failure and overstates potential returns
 - Paper investigates wether the reason the CAPM or other linear asset pricing models FAIL to capture the risk from inv. In merger stocks is that the ret to merger stocks are corr. To market returns in a non linear way (thus linear pricing will not work)
-Rendered
-Readings Week 1:
 
-A Primer on Hedge Funds
+- Results indicate that:
+	- In flat + appreciating markets, risk arbit generates 50 basis pts per m return
+	- Market beta of the risk arbit portfolio increases when markets are down
 
-Rational for how hedge funds are org. And insight on how the performance varies compared to mutual funds. Returns are driven by non-linear dynamic strats and exapnles are given where linear stat. Techniques can't capture the risk in these funds.
+	- RAIM portfolio *portfolio mimicing returns from a hypo. risk arit index fund* generates MODERATE returns in up markets but can give OUTSIZED netgative returns in down markets
+	- Paper is first to doc. high corr. between risk arbit returns and market returns in down markets
+	- Studies suggest that NOT accounting for transaction cost is what makes risk arbit look *so* outsizedly attractive in terms of returns
 
-Inst. inv. And wealthy inv. Have always been int. In hedge funds
-Alt inv. To trad. Portfolio of assets
->50 yrs been opaque to public
-Recently attacks such as those on the British pound (led by George Soros) and other things have caused a public interest in these funds
-This paper provides rationale on how hedge funds are structured and why they differ from trad. Mutual funds.
+## Typical types of investments
 
-A brief history of hedge funds
+There are two types of mergers:
+- Cash mergers
+- Stock mergers
 
-Generally reg. As priv. Inv. vehicles for wealthy indiv.
-Org. as LLC/Lim. Partnerships in which the inv. Are lim partners and the managers are gen. Partners
-Fund managers inc. sig. Portion of personal wealth into the fund to ensure alignment of personal and professional incentives
-Inv. charged a performance based fee as well as fixed management fee
-First hedge fund formed by Albert Wislow Jones in 49
-Used long-short equity pos. And leverage
-Carried incentive fee based on perf
-1966 Fortune article said Jones fund returned MUCH higher ret's than trad. Mutual funds
-Many more formed soon after
-Alt group of funds in SAME universe as hedge funds are COMMODITY TRADING POOLS
-Structures in a similar way as hedge fund partnership by operated by COMMODITY TRADING ADVISORS
-CTA's are firms that handle cust. Funds and advice future trades or option contracts
-CTA funds are differentiated from hedge funds tha tthey primarily trade future and option contracts
-BUT lately they also expose themselves to int. Rates, currencies, stock indices and commodities
-Blurred line between hedge fund and CTA fund
-Future contracts have emerged as risk management tool for hedge fund managers
-TODAY: Doesn't matter what you're registered as
-Timeline:
-1997: 987 Hedge funds with $65B assets
-Hedge funds have exposure in all asset markets including shorting of securities
+**Cash merger**
 
-Legal Env. Of Hedge Funds
+In cash merger, acquiring co. offers to exchange cash for the target co equity/asssets
 
-Diff. in return btwn hedge funds and mutual funds HYPOTHESIZED to be trading strats
-Hedge funds have DYNAMIC trading strats, mutual funds are buy and hold
-Use of leverage is fundamental diff
-Hedge funds leverage by margining position and shorting
-Mutual funds limited from leveraging
-In US, THREE SETS OF OVERSEERS:
-SEC: Oversee publicly traded securities
-CFTC: Commodities Futures Trading Commision oversees futures
-Federal Reserve, Office of Comptroller, Office of Thrift Supervision oversee comm. Banking industry
-Hedge funds DO NOT deal with public
-Priv. inv. Vehicles for wealthy
-Fall outside jurisdiction of these orgs.
-Hedge fund restrictions:
-Cant have more than 35 NONACCREDITED investors and cant engage in solicitation (advertising)
-Sec. act 1933
-1934 Sec. act gives SEC power to reg. Sec. brokerage firms
-■■Ones that face conflict of interest and trading own acc.
-Hedge fund managers can get some perf. Based incentives not avail. To mutual funds
-Not subject to FULCRUM rule
-■■Basically just rule that allowed them to take performance fee
-■■BUT HAS TO BE SYMMETRIC for mutual funds, so if you lose you give back money
-CFTC:
-Created in Comm. Exchange act 1974 to reg. Futures markets in US
-"protects market participants against manipulation, abusive trade practices and fraud" in the futures markets ( cftc.gov)
-Economics of Hedge Fund Orgs:
 
-What is the problem in front of a money manager?
-Managers believe they have > avg strategies
-Needs external capital
-Debt or Equity financing required
-■■Managers personal wealth is not usually enough to finance a fund
-■■So usually equity
-■■Fund as only practical option
-Fund man. With WINNING strategies obv. Dont want to disclose the strats that helped them win
-■■But where does transp. Come into the equation for public AND inv.
-■■Leads to lack of publicly offered hedge fund products
-Hedge fund = large profit but highly leveraged
-■■High risk, high reward
-■■Inv. want lim liability
-If fund were formed as an LLC, taxes become annoying
-■■That's why usually they're lim. Partnerships
-■■Also OFFSHORE funds for tax-free purposes
-Not open to US persons bc legal issues/tax issues
-■■Passive Foreign Inv. Corp
-Allows US and foreign inv. To mingle
-Other things to consider:
-■■Leverage
-■■Trading style
-If extensively trading leveraged futures, you might have to reg. As a CTA or CPO
-CTA: Commodity Trading Advisors
-CPO: Commodity Pool Operator
-Summary of Hedge Fund Inv. Styles
+** Stock Merger **
 
-Returns char. Diff. strats
-7 main chars.
-■■Event driven styles
-Distressed Securities Funds
-Take bets on corp. BK's, reorgs, bank debt and high yield corp bonds
-Merger Arbitrage
-Invest in announced M&A
-Long the equities of targets and short the acquirer
-■■Reverse if deal may fail
-■■Global Funds
-Catch all cat inv. In NON US stocks and bonds
-No SPEC. strat but just generally diversified global inv.
-Macro funds rely on macro analysis to bet on MAJOR risks:
-Currencies
-Int Rates
-Stock Indices
-Commodities
-■■Market Neutral Funds
-Avoid major risk factors
-Bet on rel. Price movements
-Lot of attempted arbitrage:
-■■Long-short arbit., stock index arbit, conv. Bond arbit., fixed income arbit.
-Long-Short Funds:
-Classic AW Jones model, taking long/short pos. And limiting exposure
-Stock Index Arbit Funds:
-Trade the spread between index futures contracts and underlying basket of equities
-Conv Bond Arbit:
-Trade embedded options in the bonds and short the equities they are assoc. With
-Fixed Income Arbit:
-Trade the price of the bond along a yield curve
-Mix of corp and gov bonds and two baskets of sim. Bonds trading at price diff.
-■■Sector Funds
-Inv. in SPECIFIC SECTORS of the economy
-Long only funds vs short-seller funds
-Trading techniques above are not limited to hedge funds
-■■Universities, rich families, etc. all use it to trade
-IS THERE and overall framework allowing investors to compare diff. Funds performance on a risk adjusted basis GIVEN all these diff. Trading strats? (BIG QUESTION)
-■■We begin by constructing a framework that relates inv. Targets to asset allocation decisions
-TWO approaches:
-1. Relative Return
-Rel. targets are selected the universe of 
+In stock merger, the acquirer offers common stock to the target sh. instead of cash
+
+In stock merger:
+- Arbit. person shorts the acquiring firm and buys the target stock. THREE sources of profit: 
+	1. Difference between the short of the aquirer stock and price paid for the target stock
+	2. Dividend paid on inv. in target stock (offset by div. that must be paid on shorted acquirer stock)
+	3. Interest paid by arbit persons BROEKR on proceeds from the short sale (usually 0 for indiv.)
+
+
+** PRIMARY RISK ** : Deal falling through
+
+Probability for risk failure is baked into target firms price, hence why it trades SLIGHTLY below what the offering price is
+
+
+## Possible Explanaions of Risk Arbit Returns
+
+Excess returns are highest for CASH tender offers.
+
+
+Basically they did a *bunch* of studies and found that ocnsistently if you BOUGHT a day after the Tender Offer and sold one day BEFORE the deal closed, then you would make outsized returns. 
+
+
+But I'm sure they will contradict this later by saying it's bc transaction costs not factored? Also outsize risk...
+
+
+Returns from previous studies seem to show that there is a SEVERE market ineff. in the pricing of merger stocks (get it, class name...)
+
+
+** SKIPPING TO END **
+
+
+Basically goes ON AND ON about their  tests and regressions, so they construct this artificial portfolio of risk arbit returns/fund, do math on it and compare it to the best data they can find about REAL hegde funds and find that their model tracks real hedge funds quite well.
+
+
+10% total equity in a single stock restriction, and other guidelines are followed. Same with max. price impact of 5% (stop loss)
+
+
+Results indicate that risk arbit geenrates excess returns of 4% annually. For indiv investors who dont get interest on their short sales, it is onyl 2%. Most of the diff. between this study results and others is attrib to LOOSELY defined transaction costs (whatever those are).
+
+
+## READING # 2
+** Limited arbitrade in mergers and acquisition **
+
+
+Abstract:
+- A div. portfolio of risk arbit pos. produces abnormal returns of 0.6-0.9% per month from 81-96. Trace the profits to practical limits on risk arbit. Risk bearing capacity limited by deal completion risk and size of pos. held.
+
+
+Introduction:
+- If markets were perfect, price of target stock would *immediately* go to the price in the tender offer. In reality smaller investors or existing investors usually sell their shares to RISK ARBIT investors who will then profit from the spread between the target price and offer price IF the deal closes.
+- This created ABNORMAL return (just means not normal, not hyperbolic at all) to risk arbit positions. 
+
+
+Conclusion:
+- Past reseach shown that merger arbit produces V high returns
+- Paper talks about WHY:
+	- Model to test the cross setion of implications of a LIM # of arbit. people
+	- Evidence that supports a model where UNDIVERSIFIED inveetors sell to aboid completion risk (deal completion risk). 
+	- Arbit people require a premium for BEARING this risk
+- Paper also provides theoretical limits for how much can be made with this strat
+	- Portfolio beats market outright by 0.3% per month
+	- If precise info on merger terms is not impacted in price, arbit may not be the most efficient means of generating returns (then maybe a buy or short or option strtegy is better)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
