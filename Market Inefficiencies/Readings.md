@@ -271,7 +271,7 @@ CONCLUSION:
 
 
 
-**WEEK 2 READINGS:**
+## WEEK 2 READINGS:
 Characteristics Of Risk &amp; Return in Risk Arbitrage
 
 - Paper analyzed 4750 M&amp;A deals from 63 to 98 to char. The risk and return in risk arbit.
@@ -358,7 +358,7 @@ Basically goes ON AND ON about their  tests and regressions, so they construct t
 Results indicate that risk arbit geenrates excess returns of 4% annually. For indiv investors who dont get interest on their short sales, it is onyl 2%. Most of the diff. between this study results and others is attrib to LOOSELY defined transaction costs (whatever those are).
 
 
-## READING # 2
+**READING # 2**
 ** Limited arbitrade in mergers and acquisition **
 
 
