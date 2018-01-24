@@ -272,7 +272,7 @@ CONCLUSION:
 
 
 ## WEEK 2 READINGS:
-Characteristics Of Risk &amp; Return in Risk Arbitrage
+*Characteristics Of Risk &amp; Return in Risk Arbitrage*
 
 - Paper analyzed 4750 M&amp;A deals from 63 to 98 to char. The risk and return in risk arbit.
 - Risk arbit ret are + corr. With market ret in dep markets but uncorr. In flat and apprec. Markets
@@ -346,7 +346,7 @@ But I'm sure they will contradict this later by saying it's bc transaction costs
 Returns from previous studies seem to show that there is a SEVERE market ineff. in the pricing of merger stocks (get it, class name...)
 
 
-** SKIPPING TO END **
+**SKIPPING TO END**
 
 
 Basically goes ON AND ON about their  tests and regressions, so they construct this artificial portfolio of risk arbit returns/fund, do math on it and compare it to the best data they can find about REAL hegde funds and find that their model tracks real hedge funds quite well.
@@ -359,7 +359,7 @@ Results indicate that risk arbit geenrates excess returns of 4% annually. For in
 
 
 **READING # 2**
-** Limited arbitrade in mergers and acquisition **
+*Limited arbitrade in mergers and acquisition*
 
 
 Abstract:
