@@ -77,17 +77,17 @@
 	- USD -> CAD exchng rate: 1:1.25
 	- US/CA interest rates are the same 
 	
-What price does Valeant have to offer?
+	What price does Valeant have to offer?
 
-PFE offer: 150
-**Valeant offer: 150(1.25) = 187.5 CAD/sh cash**
+	PFE offer: 150
+	**Valeant offer: 150(1.25) = 187.5 CAD/sh cash**
  
 3. Assume:
 	- CAD int rates: 10%
 	- US int. rates: 0%
 	
-PFE Bid: 150
-Valeant Bid : (X/1.1) > 187.5, thus they must bid: **X = 206.25/sh CAD**
+	PFE Bid: 150
+	Valeant Bid : (X/1.1) > 187.5, thus they must bid: **X = 206.25/sh CAD**
 
 4. PFE vs. KKR
 	- KKR will raise funds. 
@@ -96,33 +96,35 @@ Valeant Bid : (X/1.1) > 187.5, thus they must bid: **X = 206.25/sh CAD**
 	- MRK chooses KKR and failure, then MRK = 100, PFE bid = gone
 	- MRK investors want to max. the expec. value of takeover offer
 
-Min. cash bid needed to compete with PFE?
+	Min. cash bid needed to compete with PFE?
 
-KKR must bid enough to cover the risk of the transaction so: 0.8(X) = 150, thus **X = 187.5**
+	KKR must bid enough to cover the risk of the transaction so: 0.8(X) = 150, thus **X = 187.5**
 
 5. Assume inv. do not know the prob. KKR is able to finance the bid. 
 	- MRK inv. require 25% return during 1yr if KKR bid accep.
 	- MRK inv. require 10% ret. during 1yr if PFE bid accep.
 
-**If PFE bid = 150, what does KKR have to bud to have MRK trade at same level it would today with PFE's bid?**
+	**If PFE bid = 150, what does KKR have to bud to have MRK trade at same level it would today with PFE's bid?**
 
-MRK w/ PFE bid trades at : 136.3636
-KKR has to bid: X/1.25 > 136.3636 = 170.4545
+	MRK w/ PFE bid trades at : 136.3636
+	KKR has to bid: X/1.25 > 136.3636 = 170.4545
 
-KKR must bid at least **170.4545** to have MRK trade at PFE levels.
+	KKR must bid at least **170.4545** to have MRK trade at PFE levels.
 
-**Assume the stock falls back to $100 if the deal fails. What is the implied prob. of completion for the KKR offer if the 1 yr risk free rate = 5%?**
+	
 
-KKR bid: 170.4545
-MRK price today: 136.3636
-MRK price on failure: 100
+	**Assume the stock falls back to $100 if the deal fails. What is the implied prob. of completion for the KKR offer if the 1 yr risk free rate = 5%?**
 
-Probability of completion: p(170.4545/1.05) + (1-p)(100/1.05) = 136.3636
+	KKR bid: 170.4545
+	MRK price today: 136.3636
+	MRK price on failure: 100
 
-(162.337 - 95.238))p = 41.1256
+	Probability of completion: p(170.4545/1.05) + (1-p)(100/1.05) = 136.3636
 
-67.099(p) = 41.1256
+	(162.337 - 95.238))p = 41.1256
 
-**p = 0.6129  = 61.29%**
+	67.099(p) = 41.1256
 
-Thus the implied prob. of completion is *61.29%*
+	**p = 0.6129  = 61.29%**
+
+	Thus the implied prob. of completion is *61.29%*
