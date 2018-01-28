@@ -1,6 +1,6 @@
 # Problem Set 1
 
-##Due Jan. 29th | Econ 444
+## Due Jan. 29th | Econ 444
 
 1. Pfizer + Merck
 	- a. 40% premium on 100/sh = **$140/sh**
