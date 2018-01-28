@@ -1,6 +1,6 @@
 # Problem Set 1
 
-## Due Jan. 29th | Econ 444
+Due Jan. 29th | Econ 444
 
 1. Pfizer + Merck
 	- a. 40% premium on 100/sh = **$140/sh**
@@ -60,7 +60,7 @@
 		X = 87.359
 		87.359 / 50 = 1.747
 
-		Thus PFE will have to give current MRK shareholders 1.747 shares upon closing to have MRK trade at $150
+		Thus PFE will have to give current MRK shareholders **1.747** shares upon closing to have MRK trade at $150
 	- n. PFE vs. JNJ
 		
 		PFE offer value: 150
