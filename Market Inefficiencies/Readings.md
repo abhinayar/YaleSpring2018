@@ -382,6 +382,155 @@ Conclusion:
 	- If precise info on merger terms is not impacted in price, arbit may not be the most efficient means of generating returns (then maybe a buy or short or option strtegy is better)
 
 
+## Readings Week 3
+** Do Hedge funds add value or are they paid for market risk?**
+
+*The ABC's of Hedge Funds - Alphas, Betas, Costs*
+
+- Authors decompose hedge fund returns to try and find where they come from, alphas or betas and account for cost
+- 2008 HF had neg. returns for first time in 20 yrs
+- 1990's HFs used to follow global macro trend strats, 2009 most followed short-long equity strats
+- Alpha vs Beta
+	- Alpha is the historical measure of an assets return on investment compared to the risk adjusted expec. return
+	- Beta is the relation/correlation of the asset to the market returns. Historical measure of volatility.
+- Accurate measure of HF returns are difficult
+	- When data IS published you have *SURIVORSHIP BIAS* and *BACKFILL BIAS*
+- Survivorship bias:
+	- When a fund fails it is removed from DB bc DB contains only succesfull funds
+- Backfill bias:
+	- Hedge funds generally report performance after a time period of good performance and that history may be incor. into the DB
+- Alpha's are added value and do not appear to exist in Mutual funds. Betas can be produced by diversification.
+	- HF have high alphas
+
+**Hedge Fund Return Measures**
+
+- HF return data has several biases
+- Reporting is voluntary
+- This paper collected monthly HF data , post-fee
+- Fix for surviv. bias and backfill bias (or well... control at least)
+- Est. from Brown, Goetzmann and Ibboston claim that the Surv. bias accounts for a 3% unrealizable return per year
+- **Backfill Bias**: occurs when a HF includes prev. unreported performance hist with its first monthly report
+	- Causes an upward vias in the overall ret. data
+	- Backfill bias of ~400 basis pts over 96-2011
+	- BASIS POINTS: 1/100th of 1 percent (used in diff. bts int. rates)
+- Larger funds have lower backfill bias and better returns than small ones on average
+	- Why? Access to capital, higher Sdevs (more risk/volatile), access to resource, etc.
+- Surv. bias + Backfill bias can be lg for indiv. HF data.
+	- Over stated results when analyzing without including the bias
+
+**Sources Of HF Returns**
+- Generally thought that lg. % of HF returns gen. through manager skill
+	- Basically lot of the return comes from a + net alpha comp.
+- HF gen returns primarily throgh RISK PREM and only secondarily through imperfect markets
+	- Comp. fees with amount of alpha added by HF
+	- Calc avg amount of HF ret that come from LT beta exposure vs HF added alpha
+
+**Results**
+- Based off return based style analysis by Sharpe
+- Benchmarks: SP500, US interm.-term gov bond, cash (T-bills)
+- Findings suggest that HF added sig. alpha over study period
+
+**Conclusion**
+- HF are not absolute return, DO vary some with market and have a subs. SM beta
+- Avg. HF manager added value in both bearish and bullish markets
+- High past alphas are not a predictor of future alphas in HF insutry
+
+END OF READING 1
+
+READING 2
+*Do HF hedge?*
+
+- 2000 was poor year for markets, great for HF
+- HF can take long/short positions and isolate risk
+- Argument in paper is that **results based on monthly data MAY BE misleading**
+	- Many HF hold combos of ILLIQUID exch traded sec.
+	- OR diff. to price OTC secs.
+	- Leads to NON SYNCHRONOUS PRICE ACTIONS
+- Lack of accurate prices lead to HF's being FLEXIBLE with their marks of the positions
+	- Market Supportive Accounting: Where HF's use the discrep. between the mark price and true value to inflate themselves
+	- This can lead to artificially low volatility measures and reduce Beta of HF portfolios
+- Using stat techniques by Dimson, Scholes & Williams, authors find that monthly beta correlation GREATLY underestimate HF equity market exposure
+	- Argument is that the broad index of HS and most HF subcat. DO NOT ADD VALUE over the time period compared to expected (given their market exposure)
+- New BIAS intro:
+	- **SELF SELECTION BIAS**: If the top or bottom performing funds lack the same incentive as other funds to report data to vendors (thus excl. from index calcs). 
+	- Biases are NOTORIOUSLY diff to eliminate fully
+
+**Adjusting HF Returns for Mkt Exposure**
+- Behooves inv. to det. whether HF are adding val beyond the returns they derive from Mkt exposure because:
+	- (1) DIVERSIFICATION: If HF has passive mkt exp. and gen. + returns bc the mkt goes up, it will lose money when mkt goes down possibly
+	- (2) FEES: Inv. should NOT pay a HF level of fees for expsure they can get from Index or Mutual funds 
+
+- Most HF claim they DO have mkt risk but that they generate additional alpha on top of it
+- Results of the papers study say that DESPITE Mkt risk, hedge funds **DO** appear to add value
+	- 2.63% p year net of fees above and beyond the estimate
+
+
+**Market-Market problems in HF Returns**
+- Stale/Managed prices
+	- Results of the study may be misleading 
+	- BC many hedge funds hold illiquid exhcnage traded secs or diff. to price OTC secs. 
+	- Non synchro movements in returns
+	- HF managers have broad latitude in marking the prices of these assets since no one can definitively price them
+	- Called STALE pricing, HF managers can use this to smooth returns
+	- May result in SIG lagged relations between MKT RETURNS And REPORTED HF EARNIGNS
+
+- Longer Horizon Returns
+	- Using longer t-horizons helps eliminate SOME of the Stale Pricing effects
+	- Stale prices rep. smaller % of these returns vs m2m
+- Lagged Betas
+	- Lagged returns can be calculated on their own and correlated with normal betas to see if the stale pricing, etc. has a large effect
+	- Dont REALLY get it but theres Beta, and then there's LAGGED beta
+	- Hedge funds appear to move with the market at a LAG bc of the marking of prices and trades not appearing for a delayed time period while someone adjusts the marking the illiquid sec. prices
+	- Beta more than DOUBLES for lagged calculations
+
+**Asymmetric Betas**
+- Examining lagged betas for DOWN vs UP markets
+- There is circumstantial evidence that INTENTIONAL manager smoothing is part of the documented effect
+
+**Hedge Fund Alphas**
+- OVerall index of HF adds about 2.6% annually when accounting for mkt exposure
+- Sharpe ratio of HF index drops from 0.8 -> -0.4 when accounting for SUMMED betas
+	- Every category except managed futures and ded. shorting HF;s
+- HF returns are too volatile and too short term to make def. statmenet about HF alphas
+
+**Conclusion**
+- Propose instead of using SIMPLE SHarpe rations calc using monthly returns, inv. focus on HEDGED SHARPE RATIOS
+	- These take into account Mkt exposure
+	- Use lagged beta technique to est. more accurate betas
+- Non synchro pricing problem (whether Stale or Managed prices) are issue in HF monthly data and can lead to reporting and analysis issues
+- Scrutiny of HF claims is important.
+
+
+END OF READING
+
+READING 3
+*Hedge Funds: Risk & Return*
+- MMs have estimated that during 2004, HF trades accounted for ~ 50% of the shares changing hands
+- Same shit about biases in other articles
+
+**Persistence in HF returns**
+- Non uniform returns
+- Though HF's do produce alphas on an aggregate whole, there are high performers and low performers
+	- Hard to tell from index bc some funds may stop reprotign BC DEAD while others stop bc DONT NEED NEW INVESTORS
+
+**Conclusion**
+- HF are an ASSET CLASS that provides generous returns during all SM conditions (IS THE MARKETING SCHPEEL)
+- HF returns are ACTUALLY lower than commonly thought
+- Cross sectional variance and range of indiv. HF returns are GREATER than they are for trad. asset classes
+	- Inv. in HF take ofn subs risk of selecting a "bad" or failing one.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

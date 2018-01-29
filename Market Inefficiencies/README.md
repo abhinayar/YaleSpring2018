@@ -187,6 +187,68 @@ Closing/completion risk.
 - What is the timing of the deal?
 
 
+Class 5
+01/29/2018
+--
+
+**Isolating risks in merger arbitrage**
+- What are risks involved?
+	- Interest rate risk
+		
+		Bc time value, the longer the transaction takes, the more interest rate risk you face because (a) int. rates could climb higher than the profit from the deal
+
+	- How can you hedge the risk?
+		
+		Bonds? Limit timeframe? Missed this part.. review
+
+- Questions:
+	- What is my edge?
+	- How do I reduce types of risk/isolate risk
+	- Market risk, interest rate risk, idiosyncratic risk, etc.
+
+- Understanding the second order risk to your portfolio
+	- Financial Risk
+	- Correlation risk of smart "crowded" traders
+	- Levered hedge funds can become forced sellers in stressed times (fire sales)
+	- Hedge funds want excess returns with LOW volatility
+	- High returns W/O volatility is measured by *Sharpe Ratio*
+
+
+One of the problems:
+- Low volume traded (infrequently traded) assets
+- Bad reporting from hedge funds
+	- Need good reporting to understand real risk and performance
+	- There IS an index but this index prunes the low performing funds which makes Hedge funds as an investment vehicle look WAY better than they actually are
+- bad/simplistic calculations
+	- Sharpe ratio is EASY to understand but does a poor job modelling reality
+	- Usually more to pacify investors than anything
+	- Real analysis requires nuance and understanding of risk premiums and risk factors, etc.
+
+
+SOON: We will talk about risk adjusted returns.
+
+TODO: Emails + Readings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
