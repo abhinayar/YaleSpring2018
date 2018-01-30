@@ -162,3 +162,173 @@ EXAMPLE:
   - This is called STOCHASTIC GRADIENT DESCENT
   - works in instantaneous values of the data
   - Is a BROWNIAN WALK around the WIENER SOLUTION
+
+
+
+Class 4
+
+01/25/2018
+
+  
+
+Perceptron:
+
+- 1950’s, Frank Rosenblatt (IBM + Cornell) 
+- Claimed that the perceptron was a great device to use as a basis for building neural models 
+- “Neural Dynamics” 
+- From the beginning you get the sense that this is what we’ll be building off of 
+  
+
+Minsky + Papert: Perceptrons
+
+- Emphasized not WHAT perceptrons COULD do but what they could NOT do 
+- Two famous examples: 
+    - XOR function, Connected predicate 
+
+- Wrote this book because they used it to take the funding from the office of naval research that was going to Rosenblatt, and re-assign it to the AI lab at MIT 
+- Perceptrons != AI (succeeded for 10-20 years) was their argument 
+- Pushed towards LISP/symbolic rewriting and away from neural nets 
+  
+
+Now we read about how neural networks and AI may or may not be the same.
+
+AI is now synonymous with Deep learning -&gt; Networked layers of neurons
+
+  
+
+Last week we had a linear unit with:
+
+- A number of inputs 
+- A number of weights 
+- Do some math on the above two, run it through a LINEARITY (activation function), and then map to some output (binary output = binary classification) 
+    - Many forms for activation function: Sigmoid, Sine, Hyperbolic tangent 
+
+  
+
+Data given is PAIRS in binary classification with supervision problem:
+
+- Input + class pair 
+    - Ex: (Face1, Male), (Face2, Female), etc. 
+
+- We want a set of weights W, such that W * X (inputs) = Y for all i in the domain 
+  
+
+Classification problem is a problem of dividing the input domain with a linear HYPERplane (b c high dimensional data)
+
+- Affine sets 
+- Linear hyperplanes 
+- Half Space 
+  
+
+Solution is an affine set, which is given by W * X + bias = 0
+
+- Bias is to adjust for error, OFFSET of hyperplane through 0 
+- We can feed this bias into the perceptron as another input 
+  
+
+Suppose domain is LINEARLY SEPERABLE (sometimes it is not, then we have to use support vectors to push to higher dimension and see if the higher dimension is seperable)
+
+- Going over Rosenblatt’s Precerptron learning algo. 
+  
+
+If data is linearly seperable, then the perceptron learning algorithm, PROVABLY converges in a finite # of steps
+
+- However the finite # may be larger than the number of data points that you have 
+- You may have to cycle through the data MULTIPLE times before you get convergence 
+- K nearest neighbors, PLA (both algorithms to look into) 
+- IF data space is NOT linearly seperable, there will be no convergence 
+  
+
+Where do you start in the data points?
+
+- You average the +1’s and -1’s in the input data set to start somewhat intelligently 
+  
+
+What’s the “margin”?
+
+- Key point in deep learning 
+- Suppose data points are dist. In a weird way...  
+    - The CLOSER the data points are clustered, the harder time the Perceptron learning algo has 
+    - The further away the easier to draw a dividing hyperplane 
+    - Margin(D, w, w0) = { min(x,y in D) y(wX + w0) if w seperated D, OR -inf.) 
+
+- Margin for the entire data set (written GAMMA) is going to be the SUP(w,w0) of the margin(D, w, w0) 
+  
+
+Perceptron convergence theorem:
+
+- Suppose PLA (perceptron learning alg) is run on seperable data D, with margin GAMMA with is +, and the data are normalized (|| X || &lt; 1, norm &lt; 1, BOUNDED BALL OF DATA), x in D 
+- Then the algorithm converges at MOST 1/GAMMA^2 updates 
+  
+
+Two influential examples from Cognitive Science and viewing this as a basis for all cognitive styles of thinking. 
+
+- Goes back to the people who thought you could write everything in logic 
+- Interesting to think of logical AND function: 
+    - Takes pair of BOOLEAN variables and classifies 
+    - 0/1 look like classes 
+
+- XOR doesn’t have clear decision boundary, thus is what DIRECTLY led to deep networks (look into this) 
+  
+
+How do you apply all this to vision?
+
+- One: let’s think of a diameter limited perceptron: 
+    - Meaning each perceptron only sees some of the data but not all of the data 
+    - As if you’re only looking at a part of the image and on the basis of that you have to go +/- 1 
+
+- Question is if you can calc. All these disseperate values and come up with some truth about the image 
+    - With single layer perceptron is difficult, Minsky proved you cant solve some topological tyle geometric problems that you cant solve with any diameter limited perceptron device 
+    - Mathematically what’s key is that connectivity is a GLOBAL property, hard to solve with local measurements
+
+--
+
+## Class 5 - 01/30/2018
+
+Bayes Rule
+
+p(ci, x) = joint prob. of seeing a feature of pattern X, drawn from class i
+ 
+= p(x | ci)*p(ci) / Sum(i)(p(x | ci)*p(ci))
+
+Basically potential = likelihood x prior / evidence
+
+**Decision Rule**
+- Decide c1 if p(x|c1)p(c1) > p(x | c2) * p(c2)
+- Minimized p(error)
+- p(error | x) = EITHER: p(c1 | x) if decide c2, OR p(c2 | x) if c1
+- p(error) = -inf -> inf Integral(p(error | x) p(x) dx)
+
+**Bayes Classifier**
+
+- Minimize average risk
+- Cost of taking action based on a decision
+- Two classes: C1, C2
+	- The prior probability p_i, is the prob. that obs. X is drawn from Ci
+	- Prior probability is your belief/prob. estimate WITHOUT seeing what happened in real life in the data
+- p1 + p2 = 1
+- C_ij is the COST of deciding class Ci when the actual true class is Cj
+- Terms:
+	- Sigma Algebra
+	- Barrell field
+	- Fuzzy math
+
+**Pretend 2 class classific. problem- both gaussians**
+- Something... slept
+
+**Bayes Classifier For Gaussian Dist. (Only means differ)**
+
+p(x | ci) = 1/(2pi)^(m/2) (dc + c)^(1/2) exp(1/2(x_bar - mean_i)^transpose * Cov. matrix ^ -1 * 
+
+Some other shit...
+- Go over Bayes Classifier
+- Stochastic probabilities
+- Other key terms in this lecture
+
+
+
+
+
+
+
+
