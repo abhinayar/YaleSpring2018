@@ -61,3 +61,14 @@
         - Endif
       - Endwhile
       - Return the set S of engaged pairs of residents and hospitals
+
+    Now we have to prove that this algorithm always generates a stable matching.
+
+    **Proof**
+    - Show that both types of instabilities cannot happen
+      1. There are students s and s', and a hospital h so that s is assigned to h and s' is assigned to no hospital and h prefers s' to s.
+        - This is not possible in this algorithm because if at the end of the matching s' is not assigned to any hospital, it means hospital h must have skipped over him/her, which it would not do because the hospital will propose to the highest-ranked resident in the hospitals preference list and if s' > s in the list then the hospital would have proposed to s' before proposing to s
+      2. There are students s and s' and hospitals h and h' so that s is assigned to h and s' is assigned to h' and h prefers s' to s and s' prefers h to h'
+        - The algorithm will run while the hospitals are all filled, and hospitals will propose to residents based on their strictly ordered preference, thus at some point before the termination of the algorithm, h would have proposed to s' and h' would have proposed to s BEFORE proposing to s and s' respectively, and if s and s' have the described preferences they would have broken any potential engagement to their current hospital (if engaged) in favor of h and h' offer(s) respectively, thus this scenario could never occur as well.
+
+      Since both scenarios cannot occur we call the assignment of students to hospitals *stable*
