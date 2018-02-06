@@ -321,7 +321,7 @@ In cash merger, acquiring co. offers to exchange cash for the target co equity/a
 In stock merger, the acquirer offers common stock to the target sh. instead of cash
 
 In stock merger:
-- Arbit. person shorts the acquiring firm and buys the target stock. THREE sources of profit: 
+- Arbit. person shorts the acquiring firm and buys the target stock. THREE sources of profit:
 	1. Difference between the short of the aquirer stock and price paid for the target stock
 	2. Dividend paid on inv. in target stock (offset by div. that must be paid on shorted acquirer stock)
 	3. Interest paid by arbit persons BROEKR on proceeds from the short sale (usually 0 for indiv.)
@@ -337,7 +337,7 @@ Probability for risk failure is baked into target firms price, hence why it trad
 Excess returns are highest for CASH tender offers.
 
 
-Basically they did a *bunch* of studies and found that ocnsistently if you BOUGHT a day after the Tender Offer and sold one day BEFORE the deal closed, then you would make outsized returns. 
+Basically they did a *bunch* of studies and found that ocnsistently if you BOUGHT a day after the Tender Offer and sold one day BEFORE the deal closed, then you would make outsized returns.
 
 
 But I'm sure they will contradict this later by saying it's bc transaction costs not factored? Also outsize risk...
@@ -368,14 +368,14 @@ Abstract:
 
 Introduction:
 - If markets were perfect, price of target stock would *immediately* go to the price in the tender offer. In reality smaller investors or existing investors usually sell their shares to RISK ARBIT investors who will then profit from the spread between the target price and offer price IF the deal closes.
-- This created ABNORMAL return (just means not normal, not hyperbolic at all) to risk arbit positions. 
+- This created ABNORMAL return (just means not normal, not hyperbolic at all) to risk arbit positions.
 
 
 Conclusion:
 - Past reseach shown that merger arbit produces V high returns
 - Paper talks about WHY:
 	- Model to test the cross setion of implications of a LIM # of arbit. people
-	- Evidence that supports a model where UNDIVERSIFIED inveetors sell to aboid completion risk (deal completion risk). 
+	- Evidence that supports a model where UNDIVERSIFIED inveetors sell to aboid completion risk (deal completion risk).
 	- Arbit people require a premium for BEARING this risk
 - Paper also provides theoretical limits for how much can be made with this strat
 	- Portfolio beats market outright by 0.3% per month
@@ -452,13 +452,13 @@ READING 2
 - Using stat techniques by Dimson, Scholes & Williams, authors find that monthly beta correlation GREATLY underestimate HF equity market exposure
 	- Argument is that the broad index of HS and most HF subcat. DO NOT ADD VALUE over the time period compared to expected (given their market exposure)
 - New BIAS intro:
-	- **SELF SELECTION BIAS**: If the top or bottom performing funds lack the same incentive as other funds to report data to vendors (thus excl. from index calcs). 
+	- **SELF SELECTION BIAS**: If the top or bottom performing funds lack the same incentive as other funds to report data to vendors (thus excl. from index calcs).
 	- Biases are NOTORIOUSLY diff to eliminate fully
 
 **Adjusting HF Returns for Mkt Exposure**
 - Behooves inv. to det. whether HF are adding val beyond the returns they derive from Mkt exposure because:
 	- (1) DIVERSIFICATION: If HF has passive mkt exp. and gen. + returns bc the mkt goes up, it will lose money when mkt goes down possibly
-	- (2) FEES: Inv. should NOT pay a HF level of fees for expsure they can get from Index or Mutual funds 
+	- (2) FEES: Inv. should NOT pay a HF level of fees for expsure they can get from Index or Mutual funds
 
 - Most HF claim they DO have mkt risk but that they generate additional alpha on top of it
 - Results of the papers study say that DESPITE Mkt risk, hedge funds **DO** appear to add value
@@ -467,8 +467,8 @@ READING 2
 
 **Market-Market problems in HF Returns**
 - Stale/Managed prices
-	- Results of the study may be misleading 
-	- BC many hedge funds hold illiquid exhcnage traded secs or diff. to price OTC secs. 
+	- Results of the study may be misleading
+	- BC many hedge funds hold illiquid exhcnage traded secs or diff. to price OTC secs.
 	- Non synchro movements in returns
 	- HF managers have broad latitude in marking the prices of these assets since no one can definitively price them
 	- Called STALE pricing, HF managers can use this to smooth returns
@@ -520,26 +520,112 @@ READING 3
 	- Inv. in HF take ofn subs risk of selecting a "bad" or failing one.
 
 
+## Week 4 : Introduction to Financial Options
 
+**Binomial Options Pricing**
+- Simple but powerful technique used to solve MANY complex options pricing problems
+- Doesn't require differential equations unlike Black-Schoales
+- Assumption is NO ARBITRAGE
+  - Assumes all risk free investments earn r_f rates
+  - Activity of MANY indiv. in the markets that makes this possible (based on PC intuitions)
 
+*Binomial Option-Pricing Model*
+- Assume stock @ 100 SP
+- 2 possible states:
+  - UP: $110
+  - DOWN: $90
+  - NO other outcomes
+- Assume call options exist
+  - Strike @ 100
+  - UP: Call val. = $10
+  - DOWN: Call val. = $0
+- What should price of call be?
+  - We need to construct a portfolio with similar returns to the call option
+  - BUY 1/2 share of stock for $50, Sell one call option of stock
+  - Net profit becomes 45 regardless of state (up/down)
+  - Do you see why?
+    - Up state: Stock == 110, 1/2 stock == 55, loss on option == 10 thus total == 45
+    - Down state: Stock == 90, 1/2 stock == 45, loss on option == 0, total == 45
+- Makes position risk free with payoff $45 regardless of state
+  - Investor should earn r_f RoR
+  - To find price we need to solve equation:
+    - $50 - Option Price = $45 * (e^-R_f * T)
+    - R_f = risk free (assume 6% in reading), T = time to mat. in years
+  - Thus price of this call option = 50 - 45 * e^(-0.06 * 1/12) = $5.22
+- Basic process is same for ALL option Pricing
+  - Find and form risk-free hedge
+  - Price option off this risk free hedge
+  - Assume risk-free hedge will earn risk-free RoR
 
+**Two approaches to hedging**
+1. Riskless Hedge
+2. Risk Neutral Hedge
 
+**Riskless Hedge**
+- We need to demonstrate how to find the appropriate hedge ratio (the 1/2 stock we bought in the last example)
+- Assume following payoff:
+  - 75 SP
+  - UP: 95
+  - DOWN: 63
+- Call at 65 Strike:
+  - UP: $30 payoff
+  - DOWN: $0 payoff
+- Let H be the number of shares we buy then the portfolio is:
+  - H * $75 - Call Option
+  - UP STATE: H * 95 - 30
+  - DOWN STATE: H * 63 - 0
+- Set payoff in up state equal to payoff in the down state
+  - 95H - 30 = 63H - 0
+  - 32H = 30, H = 30/32 = 0.9375
+- Now we can trivially solve for the option price as before:
+  - Option price = (0.9375 * 75) - (0.9375 * 63) * e^(-Rf*T)
 
+      = 70.31 - 59.06 * e^(-0.005)
 
+      = $11.54
+- **NOTE:** If we look at the ESTIMATE of the hedge ratio, it is the ratio of the CHANGE in the call option price to the change in the SP
+  - Formally- ratio is est. of the rate of change in VLAYE of the option RELATIVE to the change in SP
+  - Measures change in option val. per $1 change in SP
+  - H = DELTA, So $1 change in SP results in +H payoff from stock, and -H payoff from option, thus position is DELTA NEUTRAL
 
+**EXAMPLES:**
+- Price an option with SP 80 that matures at the end of one month for the stock with EPM price dist 95 - 70
+  - SP: 78
+    - UP: 95
+    - DOWN: 70
+  - C w/ SP = 80
+    - UP: 15
+    - DOWN: 0
+  - H*78 - C (portfolio)
+    - UP: H*95 - 15
+    - DOWN: H*70 - 0
+  - 95H - 70H = 15
+    - H = 0.6
+  - Call Option Price = (0.6 * 78) - (0.6 * 70) * e^(-Rf * T)
 
+      = 46.8 - 42 * e^(-0.005)
 
+      = $5.009 ~= $5.01
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+- TWO PERIOD ATTEMPT: Prive changes once every 2 weeks. Month into 2 periods. Using new pricing dynamic, what is the price of an option today that matures at EOM and has SP 100
+  - Now: 100
+  - 2 Weeks:
+    - UP: 104.88
+    - DOWN: 94.86
+  - 1 month:
+    - UP: 110
+    - CONVERGE: 100
+    - DOWN: 90
+- Basically we want to price it like two seperate options I'm guessing?
+  - Price of option if only 2 weeks:
+  - Option:
+    - UP: 4.88
+    - DOWN: 0
+  - Portfolio: H * 100 - Call Option
+    - UP: H * 104.88 - 4.88
+    - DOWN: H * 94.86 - 0
+  - 10.02H = 4.88 -> 0.487 = H
+  - Option Price = (0.487 * 100) - (0.487 * 94.86) * e^(-0.06 * (0.04167)) *[0.4167 = 2/52, # of weeks in year]*
+    - Option Price = $2.61
+- QUESTION: Multi-period option pricing I don't really get... Ask Prof/Alan.
+ 

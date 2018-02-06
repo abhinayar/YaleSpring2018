@@ -113,6 +113,75 @@ Summary:
 - Question: What does it mean that the price is quoted for the principal amt of $100?
  
 
+--
+
+## Class 5 : Interest Rate Swaps
+
+CASE INFO:
+- Everything relevant is in the case
+- Not supposed to be a bulleted answer of the questions inside
+- Supposed to be a memo
+- Discuss it with your group, and then turn in a max 2 page memo
+- Dont go to outside sources
+
+**Tesla plunges in to sec. markets for new funds**
+- Privately held, still needs finance
+- Tesla completed straight bond deal last year
+- Traditionally relied on Conv. bonds + Equity markets
+- Ties these bonds to payments on LEASED vehicles
+	- 12% of rev. came from Tesla leasing dep.
+
+
+**What is an int. rate swap?**
+- We want to know:
+	- What is it
+	- How are they valued
+	- What is a swap rate, what is swap spread
+	- Asset swaps (optional)
+	- Exotic swaps (caps, floors, swaptions, etc.)
+		- We only really care about swaptions in this course
+
+**Intro**
+- Swap is a FINANCIAL CONTRACT between two parties to exchange a set of FUTURE CASH fflows
+	- At a spec. future date, 2 parties will swap future cash flows
+	- Int. rate swap spec. swaps two future payments that have diff. interest rate sensitivities
+	- One party is sending cash flows linked to SOME market prices, and other is sending CF related to OTHER MP's
+
+**Legal Framework**
+- Swaps are traded under a master contract
+	- Des. by Inter. Swaps and Deriv. Assoc. (ISDA)
+	- Master contract is called ISDA master
+- When you trade derivates you NET
+	- Contract allows for NETTING, outside of BK
+	- Counterparty risk is taken into account in the provision of Master agreement called CSA (Credit Supp. Annex), which specifies things about collateral requirements or credit triggers- or UNWINDS the swap if one of the parties credit rating changes
+
+
+**Simple Interest Rate Swaps**
+- Interest rate swap is a contractual agreement to exhcance CF at a future rate, where the CF are cal. as the interest on a notional principal
+- Int. CF are calc based on PRINCIPAL AMOUNT, but the PRINC amount is NOT traded (so its called NOTIONAL)
+
+**Simplest Swap**
+- Each side called leg
+	- One leg pays a FIXED INT RATE to counterparty in exchng for a FLOATING RATE
+- Firms can trade the rates they receive with each other
+	- Can exchng floating rates for fixed rates
+- BEFORE: Used to be two parties exchanging
+- TODAY: Swap dealer
+	- Dodd-Frank: Swap Dealer replaced by the CCP
+	- Central Clearing Party (novation)
+- CCP
+	- CCP asks both parties to permanentely post collateral
+	- They sit on it
+	- Then if theres a problem with FirmA, they will go get more collateral
+	- Pos./Negs.:
+		- +: Thought it would be better
+		- -: Have to post collateral and lose money
+		- -: CCPs are private so they are competitive
+		- -: CCP's try to undercut each other
+		- -: Seperate clearing party for each type of derivative, so now you can't net the positions unless you do it WITHIN the CCP
+		- LEFT CLASS EARLY, Watch from here
+
+
 
 
 
@@ -134,3 +203,4 @@ Summary:
 
 
  
+

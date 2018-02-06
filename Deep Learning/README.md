@@ -114,4 +114,16 @@ RESTRICTED BOLTZMANN MACHINES:
 - Uses:
   - Feature learning
   - Initializing other deep networks
-  - Components in other networks
+  - Components in other network
+
+
+--
+
+
+Class 2 
+
+Missed Notes - Makeup
+
+Notes should be here: http://cpsc663.guywolf.org/
+
+**NOTES ARE NOT UP, FOLLOW UP IN CLASS**s
